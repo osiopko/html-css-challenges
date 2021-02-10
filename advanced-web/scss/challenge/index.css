@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: blue;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+main section {
+  height: 300px;
+  width: 30%;
+  margin: 50px;
+  border: 1px solid black;
+  background-color: blue;
+  border-radius: 10%;
+}
+
+.boxF {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxF:hover {
+  background-color: lightblue;
+}
+.boxF--first {
+  border: 1px solid black;
+  height: 30%;
+  width: 80%;
+  border-radius: 10%;
+  background-color: blueviolet;
+}
+.boxF--first:hover {
+  background-color: pink;
+}
+.boxF--second {
+  border: 1px solid black;
+  height: 30%;
+  width: 80%;
+  border-radius: 10%;
+  background-color: blueviolet;
+}
+.boxF--second:hover {
+  background-color: pink;
+}
+.boxF--trhird {
+  border: 1px solid black;
+  height: 30%;
+  width: 80%;
+  border-radius: 10%;
+  background-color: blueviolet;
+}
+.boxF--trhird:hover {
+  background-color: pink;
+}
+
+.boxS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxS:hover {
+  background-color: lightblue;
+}
+.boxS--first {
+  border: 1px solid black;
+  height: 40%;
+  width: 80%;
+  border-radius: 10%;
+  background-color: green;
+}
+.boxS--first:hover {
+  background-color: yellow;
+}
+.boxS--second {
+  border: 1px solid black;
+  height: 40%;
+  width: 80%;
+  border-radius: 10%;
+  background-color: green;
+}
+.boxS--second:hover {
+  background-color: yellow;
+}
